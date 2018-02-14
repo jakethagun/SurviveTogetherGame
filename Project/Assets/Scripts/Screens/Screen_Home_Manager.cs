@@ -60,6 +60,7 @@ public class Screen_Home_Manager : MonoBehaviour
         
     }
 
+    /*
     private void LateUpdate()
     {
         if( dynamicStoryParent.childCount == 0 && storyManager.DynamicStoryAvailable() )
@@ -67,6 +68,7 @@ public class Screen_Home_Manager : MonoBehaviour
             GameObject.Instantiate( storyManager.GetDynamicStory(), dynamicStoryParent, false );
         }
     }
+    */
 
     private void ChangeState( GameState.State state )
     {
